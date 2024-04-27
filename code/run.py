@@ -6,12 +6,12 @@
 import math
 import numpy as np
 from sklearn.model_selection import train_test_split
-import weatherbench2
+# import weatherbench2
 import xarray as xr
-from weatherbench2 import config
-from weatherbench2.regions import SliceRegion, ExtraTropicalRegion
-from weatherbench2.metrics import MSE, ACC
-from weatherbench2.evaluation import evaluate_in_memory
+# from weatherbench2 import config
+# from weatherbench2.regions import SliceRegion, ExtraTropicalRegion
+# from weatherbench2.metrics import MSE, ACC
+# from weatherbench2.evaluation import evaluate_in_memory
 
 selection = {
     'variables': [
